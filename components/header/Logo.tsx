@@ -19,7 +19,7 @@ const Logo = ({
       )}
     >
       <Link href="/" onClick={onClick}>
-        <div className="relative w-[135px] h-[60px] lg:w-[140px]">
+        <div className="relative w-[120px] h-[60px] lg:w-[130px]">
           <Image
             src={`/logo-${type}.png`}
             alt="next robot logo"

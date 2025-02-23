@@ -37,5 +37,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 
 ```terminal 
-npx shadcn@latest add accordion card carousel navigation-menu separator toast
+npx shadcn@latest add accordion card carousel navigation-menu separator toast input label
+npm install react-icons
+npm install zod @hookform/resolvers react-hook-form
+npm install next-auth@beta
 ```

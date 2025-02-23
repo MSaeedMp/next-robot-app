@@ -22,7 +22,7 @@ const Header = () => {
 
     const handleScrollY = () => {
       const currentScrollY = window.scrollY;
-      if (currentScrollY > 200) {
+      if (currentScrollY > 100) {
         setHeaderMode("white");
       } else {
         setHeaderMode("transparent");
@@ -35,7 +35,7 @@ const Header = () => {
   }, [pathname]);
 
   return (
-    <div
+    <header
       className={cn(
         "lg:bg-transparent bg-white w-full fixed left-0 top-0 z-40 transition-colors duration-300 ease-in-out",
         headerMode === "white"
@@ -46,7 +46,7 @@ const Header = () => {
       )}
     >
       <Container className={cn(" w-full left-1/2  top-0 z-40 ")}>
-        <div className="flex items-center justify-between sm:h-24 h-20">
+        <div className="flex items-center justify-between sm:h-20 h-16">
           <div className="flex items-center gap-x-4 h-full">
             <Logo type={headerMode === "transparent" ? "light" : "dark"} />
             <Navigation mode={headerMode} />
@@ -55,7 +55,7 @@ const Header = () => {
           <CustomTriggerMenu headerMode={headerMode} className="md:hidden" />
         </div>
       </Container>
-    </div>
+    </header>
   );
 };
 

@@ -6,7 +6,7 @@ import SocialMediaLinks from "./SocialMediaLinks";
 
 const Footer = () => {
   return (
-    <div className="text-white flex flex-col justify-between">
+    <footer className="text-white flex flex-col justify-between">
       <BlueBackground>
         <Container>
           <NavigationTable />
@@ -16,7 +16,7 @@ const Footer = () => {
           </div>
         </Container>
       </BlueBackground>
-    </div>
+    </footer>
   );
 };
 export default Footer;

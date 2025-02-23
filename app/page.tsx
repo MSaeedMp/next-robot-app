@@ -63,7 +63,7 @@ const HomePage = () => {
         <LightBlueBackground>
           <Container>
             <ManualWorks />
-            <EasySolutions />
+            <EasySolutions /> 
           </Container>
         </LightBlueBackground>
       </section>

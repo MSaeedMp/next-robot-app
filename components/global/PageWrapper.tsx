@@ -10,7 +10,7 @@ const PageWrapper = ({
   return (
     <div
       className={cn(
-        "pt-24 w-screen bg-neutral-50",
+        "sm:pt-20 pt-16 w-screen bg-neutral-50",
         className
       )}
     >

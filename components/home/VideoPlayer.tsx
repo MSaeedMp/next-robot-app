@@ -8,16 +8,18 @@ const VideoPlayer = ({
   className?: string;
 }) => {
   return (
-    <div className="h-full">
+    <div className="relative w-full h-full">
       <video
-        className={cn("w-full object-cover h-full", className)}
+        className={cn("w-full h-full object-cover", className)}
         src={src}
         autoPlay
         loop
         muted
         playsInline
+        preload="auto"
       />
     </div>
   );
 };
+
 export default VideoPlayer;
