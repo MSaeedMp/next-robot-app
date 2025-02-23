@@ -16,7 +16,7 @@ const ContactPage = async () => {
         <PrimaryHeading className="text-foreground my-12 lg:my-20 lg:text-7xl md:text-6xl text-5xl">
           Contact Sales
         </PrimaryHeading>
-        <Grid2ColsLg>
+        <Grid2ColsLg className="mb-16">
           <div className="mb-4 lg:mb-0">
             <TextContainer className="space-y-4">
               <div>
