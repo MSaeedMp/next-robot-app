@@ -2,7 +2,7 @@
 
 NextRobot is a web application designed to sell rebot arms and providing info about robots.
 
-![NextCabin Screenshot](public/next-robot.mp4)
+![NextCabin](public/next-robot.png)
 
 [Live Demo](https://next-robot-app.vercel.app/)
 
